@@ -74,7 +74,7 @@
 
  // Run a single module ?
  var singleModule = (function () {
- 	var validModules = ['pool', 'api', 'unlocker', 'payments', 'chartsDataCollector', 'telegramBot'];
+ 	var validModules = ['pool', 'api', 'unlocker', 'payments', 'chartsDataCollector', 'telegramBot', 'daemon'];
 
  	for (var i = 0; i < process.argv.length; i++) {
  		if (process.argv[i].indexOf('-module=') === 0) {

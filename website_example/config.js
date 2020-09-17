@@ -1,4 +1,4 @@
-var api = "https://multi-miner.smartcoinpool.net:8119";
+var api = "http://142.54.188.58:18117";
 let parentCoin = "Arqma"
 
 var email = "support@poolhost.com";
