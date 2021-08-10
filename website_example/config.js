@@ -1,5 +1,5 @@
-var api = "http://142.54.188.58:18117";
-let parentCoin = "Arqma"
+var api = "https://monero.tnode.online:18117";
+let parentCoin = "Monero"
 
 var email = "support@poolhost.com";
 var telegram = "https://t.me/YourPool";
