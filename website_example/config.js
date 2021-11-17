@@ -1,4 +1,4 @@
-var api = "https://monero.tnode.online:18117";
+var api = "http://test.xmrpool.space:3117";
 let parentCoin = "Monero"
 
 var email = "support@poolhost.com";

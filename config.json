@@ -32,7 +32,7 @@
         "mergedMining": false,
         "clusterForks": "auto",
         "poolAddress": "48AiRH7u5YcXeLaPRXhoG1XwaXvyToQ5NcCahxWyot976Gto5eNwv79Xd1HKbgb6jUZvCFxnsUU5NYVmi48NZooHNgJvXgH",
-        "poolAddress1": "44SMyCxQhyrJsNFJL5p2nAVAx1tcq3UL9hEztWeSSQerQY22i7jcVgD6qnLiN3oNfVFQF58d1MGD7d3XqZWZoWbzCvP5CjU",
+        "poolAddress2": "44SMyCxQhyrJsNFJL5p2nAVAx1tcq3UL9hEztWeSSQerQY22i7jcVgD6qnLiN3oNfVFQF58d1MGD7d3XqZWZoWbzCvP5CjU",
         "poolAddress3": "47siQcsd59o6tj8WvkKJSDbb5DhrG3iHnYxWvipuQZS7CdQ4GmyCyuggf71mg2yo8HSH6xCsoQzdtZKnPw3xXXCcP7Pca6G",
         "poolAddress2": "4ARHXMzYSWvdQj3mixwxgZ8E4XrbC8pmUE7k5D1kWB8jL74sXLf4rDYPSDtCdAFt6kJh4mAdesebZZR8hxsMVJDrRkFC8NB",
         "intAddressPrefix": 19,
@@ -41,35 +41,34 @@
         "sslCert": "./cert.pem",
         "sslKey": "./privkey.pem",
         "sslCA": "./chain.pem",
-        "ports": [
-            {
-                "port": 7771,
+        "ports": [{
+                "port": 7711,
                 "difficulty": 10000,
                 "desc": "Cloud-mining / NiceHash"
             },
             {
-                "port": 7772,
+                "port": 7722,
                 "difficulty": 50000,
                 "desc": "Cloud-mining / NiceHash"
             },
             {
-                "port": 7773,
-                "difficulty": 100000,
+                "port": 7733,
+                "difficulty": 275000,
                 "desc": "Cloud-mining / NiceHash"
             },
             {
-                "port": 7774,
-                "difficulty": 265000,
+                "port": 7744,
+                "difficulty": 285000,
                 "desc": "Cloud-mining / NiceHash"
             }
         ],
         "varDiff": {
-            "minDiff": 10000,
-            "maxDiff": 3000000,
+            "minDiff": 265000,
+            "maxDiff": 7500000,
             "targetTime": 120,
             "retargetTime": 60,
             "variancePercent": 30,
-            "maxJump": 30
+            "maxJump": 50
         },
         "paymentId": {
             "addressSeparator": ".",
@@ -131,7 +130,7 @@
         "hashrateWindow": 600,
         "updateInterval": 5,
         "bindIp": "0.0.0.0",
-        "port": 18117,
+        "port": 3117,
         "blocks": 30,
         "payments": 30,
         "password": "VampyMonkeyHashig9",
@@ -144,7 +143,7 @@
     },
 
     "daemon": {
-        "host": "nodex.monerujo.io",
+        "host": "127.0.0.1",
         "port": 18081
     },
 
@@ -157,7 +156,7 @@
         "host": "127.0.0.1",
         "port": 6379,
         "auth": null,
-        "db": 7,
+        "db": 5,
         "cleanupInterval": 15
     },
 
