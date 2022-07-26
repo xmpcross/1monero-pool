@@ -1,5 +1,5 @@
 {
-    "poolHost": "your.pool.host",
+    "poolHost": "monero.xmrpool.space",
 
     "coin": "monero",
     "symbol": "XMR",
@@ -32,7 +32,7 @@
         "mergedMining": false,
         "clusterForks": "auto",
         "poolAddress": "48AiRH7u5YcXeLaPRXhoG1XwaXvyToQ5NcCahxWyot976Gto5eNwv79Xd1HKbgb6jUZvCFxnsUU5NYVmi48NZooHNgJvXgH",
-        "poolAddress2": "44SMyCxQhyrJsNFJL5p2nAVAx1tcq3UL9hEztWeSSQerQY22i7jcVgD6qnLiN3oNfVFQF58d1MGD7d3XqZWZoWbzCvP5CjU",
+        "poolAddress1": "44SMyCxQhyrJsNFJL5p2nAVAx1tcq3UL9hEztWeSSQerQY22i7jcVgD6qnLiN3oNfVFQF58d1MGD7d3XqZWZoWbzCvP5CjU",
         "poolAddress3": "47siQcsd59o6tj8WvkKJSDbb5DhrG3iHnYxWvipuQZS7CdQ4GmyCyuggf71mg2yo8HSH6xCsoQzdtZKnPw3xXXCcP7Pca6G",
         "poolAddress2": "4ARHXMzYSWvdQj3mixwxgZ8E4XrbC8pmUE7k5D1kWB8jL74sXLf4rDYPSDtCdAFt6kJh4mAdesebZZR8hxsMVJDrRkFC8NB",
         "intAddressPrefix": 19,
@@ -42,23 +42,23 @@
         "sslKey": "./privkey.pem",
         "sslCA": "./chain.pem",
         "ports": [{
-                "port": 7711,
+                "port": 3338,
                 "difficulty": 10000,
                 "desc": "Cloud-mining / NiceHash"
             },
             {
-                "port": 7722,
+                "port": 4448,
                 "difficulty": 50000,
                 "desc": "Cloud-mining / NiceHash"
             },
             {
-                "port": 7733,
-                "difficulty": 275000,
+                "port": 5558,
+                "difficulty": 100000,
                 "desc": "Cloud-mining / NiceHash"
             },
             {
-                "port": 7744,
-                "difficulty": 285000,
+                "port": 6668,
+                "difficulty": 265000,
                 "desc": "Cloud-mining / NiceHash"
             }
         ],
@@ -68,7 +68,7 @@
             "targetTime": 120,
             "retargetTime": 60,
             "variancePercent": 30,
-            "maxJump": 50
+            "maxJump": 30
         },
         "paymentId": {
             "addressSeparator": ".",
@@ -143,7 +143,7 @@
     },
 
     "daemon": {
-        "host": "nodex.monerujo.io",
+        "host": "127.0.0.1",
         "port": 18081
     },
 
