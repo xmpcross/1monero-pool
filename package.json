@@ -1,31 +1,34 @@
 {
-    "name": "cryptonote-nodejs-pool",
-    "version": "1.4.0",
-    "license": "GPL-2.0",
-    "Original author": "Daniel Vandal",
-    "Maintained by": "Musclesonvacation",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/dvandal/cryptonote-nodejs-pool.git"
-    },
-    "dependencies": {
-        "async": "1",
-        "base58-native": "*",
-        "bignum": "*",
-        "cli-color": "*",
-        "cryptoforknote-util": "git://github.com/MoneroOcean/node-cryptoforknote-util.git",
-        "cryptonight-hashing": "git://github.com/MoneroOcean/node-cryptonight-hashing.git",
-        "dateformat": "^3.0.3",
-        "mailgun.js": "^3.7.3",
-        "node-telegram-bot-api": "^0.54.0",
-        "nodemailer": "^6.6.3",
-        "nodemailer-sendmail-transport": "*",
-        "pm2": "^5.1.0",
-        "redis": "*",
-        "socket.io": "^2.1.1",
-        "time-ago": "*"
-    },
-    "engines": {
-        "node": ">=14.17.3"
-    }
+        "name": "cryptonote-nodejs-pool",
+        "version": "1.4.0",
+        "license": "GPL-2.0",
+        "Original author": "Daniel Vandal",
+        "Maintained by": "Musclesonvacation",
+        "repository": {
+                "type": "git",
+                "url": "https://github.com/dvandal/cryptonote-nodejs-pool.git"
+        },
+        "dependencies": {
+                "async": "^3.2.0",
+                "base58-native": "*",
+                "bignum": "*",
+                "bufferutil": "*",
+                "cli-color": "*",
+                "cryptoforknote-util": "git+https://github.com/MoneroOcean/node-cryptoforknote-util.git",
+                "cryptonight-hashing": "git+https://github.com/MoneroOcean/node-cryptonight-hashing.git",
+                "dateformat": "4.5.1",
+                "domexception": "*",
+                "mailgun.js": "*",
+                "node-telegram-bot-api": "*",
+                "nodemailer": "^6.4.18",
+                "nodemailer-sendmail-transport": "*",
+                "pm2": "^5.2.0",
+                "redis": "3.1.2",
+                "socket.io": "^3.1.1",
+                "time-ago": "*",
+                "utf-8-validate": "*"
+        },
+        "engines": {
+                "node": ">=14.17.3"
+        }
 }

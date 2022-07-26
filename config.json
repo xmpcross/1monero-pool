@@ -43,7 +43,7 @@
         "sslCA": "./chain.pem",
         "ports": [{
                 "port": 3338,
-                "difficulty": 10000,
+                "difficulty": 5000,
                 "desc": "Cloud-mining / NiceHash"
             },
             {
@@ -64,7 +64,7 @@
         ],
         "varDiff": {
             "minDiff": 265000,
-            "maxDiff": 7500000,
+            "maxDiff": 3000000,
             "targetTime": 120,
             "retargetTime": 60,
             "variancePercent": 30,
@@ -143,7 +143,7 @@
     },
 
     "daemon": {
-        "host": "127.0.0.1",
+        "host": "nodex.monerujo.io",
         "port": 18081
     },
 
